@@ -1,0 +1,207 @@
+body {
+  letter-spacing: 2px;
+  font-family: "Montserrat";
+  width: 1000px;
+  margin: auto;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("images/travel.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+}
+
+input {
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  padding: 0.25rem 0.05rem;
+  font-size: 1rem;
+  padding-left: 0.8rem;
+}
+
+input[type="radio"] {
+  margin-right: 15px;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+select {
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  padding-left: 0.8rem;
+  font-size: 1rem;
+}
+
+option {
+  font-family: "Montserrat";
+  text-align: start;
+  letter-spacing: 2px;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+form {
+  background: #0f3057;
+  color: #ffffff;
+  padding: 2.5rem;
+  text-align: left;
+  margin: auto;
+  font-weight: 500;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+textarea {
+  font-family: "Montserrat";
+  text-align: start;
+  letter-spacing: 2px;
+  padding-left: 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+header {
+  text-align: center;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  margin: auto;
+  color: #ffffff;
+}
+
+#survey-form {
+  position: relative;
+}
+
+#title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+#description {
+  font-size: 1rem;
+  font-weight: 500;
+}
+#comments {
+  min-height: 120px;
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0;
+}
+#dropdown {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+.headings {
+  position: relative;
+  right: 10px;
+  font-size: 1rem;
+  margin: 0 auto 1.25rem;
+  padding: 1.5rem;
+}
+
+.submit-button {
+  font-family: "Montserrat";
+  width: 100%;
+  padding: 0.75rem;
+  height: 60px;
+  background-color: #769abe;
+  border-radius: 0.25rem;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 30px auto 5px;
+  cursor: pointer;
+}
+.form-button {
+  text-align: center;
+}
+
+.submit-text {
+  color: #ffffff;
+}
+
+.container {
+  background-color: #769abe;
+  position: relative;
+  border-radius: 0.8rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 1000px) {
+  body {
+    max-width: 100%;
+    margin: auto;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    line-height: 2;
+  }
+
+  form {
+    padding: 1rem;
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  #title {
+    font-size: 1.5rem;
+  }
+  #description {
+    font-size: 1.2rem;
+  }
+select{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+}
+  .container {
+    border-radius: 0;
+  }
+
+  .headings {
+    font-size: 1.2rem;
+  }
+  .checkbox {
+    text-align: left;
+    margin-left: 80px;
+  }
+  .radio {
+    text-align: left;
+    margin-left: 80px;
+  }
+  .submit-button {
+    margin-left: 11px;
+  }
+}
